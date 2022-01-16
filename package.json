@@ -1,0 +1,7 @@
+{
+  "name": "fibo-worker",
+  "version": "1.0.0",
+  "description": "worker for fibonacci project",
+  "main": "index.js",
+  "license": "MIT"
+}
