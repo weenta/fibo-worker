@@ -1,2 +1,9 @@
-// eslint-disable-next-line import/prefer-default-export
-export const fibo = (name: string) : string => `Hello ${name}`;
+const fibo = (num: number) : number => {
+  if (num === 1 || num === 2) {
+    return 1;
+  }
+
+  return fibo(num - 1) + fibo(num - 2);
+};
+
+export default fibo;
